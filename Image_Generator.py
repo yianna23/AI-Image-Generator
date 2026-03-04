@@ -9,8 +9,6 @@ import base64
 
 from PIL import Image, ImageTk
 
-
-# ✅ Βάλε το δικό σου API key εδώ (σαν string)
 client = openai.OpenAI(api_key="ENTER_YOUR_OWN_API_KEY")
 
 cIndex = 0
@@ -19,7 +17,6 @@ image_paths = []
 OUTPUT_DIR = "outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# ✅ Τα χρώματα που ζήτησες
 BG = "#FD96A9"
 BTN_BG = "#FCF6BD"
 TXT = "#2B2B2B"
@@ -222,5 +219,6 @@ generate_button.pack(padx=10, side=LEFT)
 
 root.bind("<Left>", prevImg)
 root.bind("<Right>", nextImg)
+
 
 root.mainloop()
