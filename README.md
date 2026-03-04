@@ -73,7 +73,7 @@ Run the program with:
 python main.py
 ```
 
-The GUI window will open and you can start generating images.
+The GUI window will open, and you can start generating images.
 
 ---
 
@@ -115,8 +115,3 @@ project/
 📁 Images are automatically saved in the **outputs** folder
 🔑 You must provide a valid **OpenAI API key**
 
----
-
-# 📜 License
-
-MIT License — free to use and modify.
